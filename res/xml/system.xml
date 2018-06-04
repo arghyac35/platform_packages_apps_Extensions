@@ -26,10 +26,16 @@
             android:icon="@drawable/ic_general_tweaks"
             android:title="@string/general_tweaks_title" />
 
+         <org.aospextended.extensions.preference.CardviewPreference
+            android:key="blur"
+            android:fragment="org.aospextended.extensions.BlurPersonalizations"
+            android:icon="@drawable/ic_blur"
+            android:title="@string/blur_title" />
+
           <org.aospextended.extensions.preference.CardviewPreference
             android:key="animations"
             android:fragment="org.aospextended.extensions.Animations"
-	          android:icon="@drawable/ic_animations"
+	        android:icon="@drawable/ic_animations"
             android:title="@string/animations_title" />
 
          <org.aospextended.extensions.preference.CardviewPreference
